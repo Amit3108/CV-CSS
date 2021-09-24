@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: gainsboro;
+}
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+.title {
+  text-align: center;
+  margin-top: 5vh;
+}
+.cvbox {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: none;
+  margin-bottom: 10vh;
+  display: flex;
+}
+.cvprofile{
+    width: 25%;
+    height: auto;
+    color: white;
+    border-bottom-left-radius: 5px;
+}
+.cvimg{
+    width: 100%;
+    height:350px;
+    background-color: rgb(16, 103, 156);
+    border-top-left-radius: 5px;
+    text-align: center;
+    
+}
+.cvimg img{
+    height:200px;
+    width: 200px;
+    border-radius: 200px;
+    margin-top: 30px;
+}
+.cvskills a{
+    color: white;
+    text-decoration: none;
+}
+.fa-github-square,.fa-linkedin{
+    font-size: 32px;
+}
+.cvcontent{
+  width:75%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
+.cvskills{
+    width: 100%;
+    height:auto;
+    background-color: rgb(51, 121, 250);
+    border-bottom-left-radius: 5px;
+    padding: 40px 25px 40px;
+    
+}
+.cvskills p{
+  text-align: justify;
+}
+
+/*  */
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.skill {
+  background-color: rgb(41, 22, 212);
+  color: white;
+  padding: 1%;
+  text-align: center;
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.html {
+  width: 80%;
+}
+.css{
+  width:70%;
+}
+.js{
+  width:55%
+}
+.rjs{
+  width:60%
+}
+.py{
+  width:45%
+}
+.php{
+  width: 65%;
+}
+
+/*  */
+.contenttitle{
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2vh;
+}
+
+.contenttitle img{
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+.contenttitle label{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+table,td{
+  border: 2px solid black;
+}
+td{
+  padding-left: 5px;
+  padding-right: 25px;
+}
